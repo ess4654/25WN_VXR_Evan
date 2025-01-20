@@ -273,6 +273,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 029efbdda4a02554682561944ac86b1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grabInteractable: {fileID: 8726264706368252504}
+  controllerDataReader: {fileID: 0}
+  interactor: {fileID: 0}
 --- !u!1 &2328224231294452000 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5176370236849841564, guid: 8ec313dafdfea5d46a175dbac668e87c, type: 3}

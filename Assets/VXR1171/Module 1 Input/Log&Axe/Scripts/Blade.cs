@@ -38,10 +38,14 @@ public class Blade : MonoBehaviour
 
     private void OnSelectEnter(SelectEnterEventArgs e)
     {
+        //Set the interactor that is grabbing the axe
         interactor = e.interactableObject as XRBaseInteractor;
+
+        //set the controller data reader
+        controllerDataReader = interactor.gameObject.GetComponentInParent<ControllerDataReader>();
     }
 
-    private void ResetControllerDataReader(SelectExitEventArgs arg0)
+    private void ResetControllerDataReader(SelectExitEventArgs e)
     {
 
     }
