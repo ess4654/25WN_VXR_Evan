@@ -3,10 +3,17 @@ using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
 using UnityEngine.XR.Interaction.Toolkit.Interactors;
 
+/// <summary>
+///     Controls the interaction with the blade of the axe.
+/// </summary>
+[RequireComponent(typeof(XRGrabInteractable))]
 public class Blade : MonoBehaviour
 {
     [SerializeField] private XRGrabInteractable grabInteractable;
+    
+    public ControllerDataReader ControllerDataReader => controllerDataReader;
     [SerializeField] private ControllerDataReader controllerDataReader;
+    
     [SerializeField] private XRBaseInteractor interactor;
 
     #region SETUP
@@ -41,12 +48,13 @@ public class Blade : MonoBehaviour
         //Set the interactor that is grabbing the axe
         interactor = e.interactableObject as XRBaseInteractor;
 
-        //set the controller data reader
+        //Set the controller data reader
         controllerDataReader = interactor.gameObject.GetComponentInParent<ControllerDataReader>();
     }
 
     private void ResetControllerDataReader(SelectExitEventArgs e)
     {
-
+        //Reset the reader
+        controllerDataReader = null;
     }
 }
