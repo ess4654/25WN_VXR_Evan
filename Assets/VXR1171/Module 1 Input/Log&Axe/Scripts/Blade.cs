@@ -57,4 +57,31 @@ public class Blade : MonoBehaviour
         //Reset the reader
         controllerDataReader = null;
     }
+
+    /// <summary>
+    ///     Drops the blade/axe.
+    /// </summary>
+    public void Drop()
+    {
+        interactor.interactionManager
+            .CancelInteractableSelection(grabInteractable as IXRSelectInteractable);
+    }
+
+    /// <summary>
+    ///     Enables physics on the blade.
+    /// </summary>
+    public void EnablePhysics()
+    {
+        if (TryGetComponent(out Rigidbody axe))
+            axe.constraints = RigidbodyConstraints.None;
+    }
+
+    /// <summary>
+    ///     Disables the physics on the blade.
+    /// </summary>
+    public void DisablePhysics()
+    {
+        if (TryGetComponent(out Rigidbody axe))
+            axe.constraints = RigidbodyConstraints.FreezeAll;
+    }
 }

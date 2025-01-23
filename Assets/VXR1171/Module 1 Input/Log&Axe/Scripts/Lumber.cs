@@ -11,6 +11,7 @@ public class Lumber : MonoBehaviour
 
     private Collider collider;
     private const float minSplitSpeed = 5;
+    private const float minStickSpeed = 3;
 
     private void Awake()
     {
@@ -23,9 +24,7 @@ public class Lumber : MonoBehaviour
         if(collision.CompareTag("Blade") && collision.TryGetComponent(out Blade blade)) //the blade hit this lumber
         {
             if(blade.ControllerDataReader != null)
-            {
-                TrySplitLog(blade.ControllerDataReader.Velocity.magnitude);
-            }
+                TrySplitLog(blade);
         }
     }
 
@@ -33,12 +32,19 @@ public class Lumber : MonoBehaviour
     ///     Attempts to split the log with a provided velocity of the axe.
     /// </summary>
     /// <param name="velocity">Velocity the axe hit the log.</param>
-    private void TrySplitLog(float velocity)
+    private void TrySplitLog(Blade blade)
     {
-        if (velocity < minSplitSpeed) return; //did not hit the log with enough force
-
-        EnablePhysics(logOne);
-        EnablePhysics(logTwo);
+        var velocity = blade.ControllerDataReader.Velocity.magnitude;
+        if (velocity >= minSplitSpeed)
+        {
+            EnablePhysics(logOne);
+            EnablePhysics(logTwo);
+        }
+        else if(velocity >= minStickSpeed) //did not hit the log with enough force
+        {
+            blade.Drop();
+            blade.DisablePhysics();
+        }
     }
 
     /// <summary>
