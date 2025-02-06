@@ -130,7 +130,7 @@ PrefabInstance:
     - target: {fileID: 1168390231236005178, guid: cf9fda9dfc4465e4bb606732a8bf1702, type: 3}
       propertyPath: m_playerTarget
       value: 
-      objectReference: {fileID: 858483651}
+      objectReference: {fileID: 0}
     - target: {fileID: 1424203174323209725, guid: cf9fda9dfc4465e4bb606732a8bf1702, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.29
@@ -376,6 +376,10 @@ PrefabInstance:
     - target: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_Name
       value: XR Origin (XR Rig)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
