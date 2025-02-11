@@ -70,6 +70,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logOne: {fileID: 1130278646489834990}
   logTwo: {fileID: 2570917286397869716}
+  splinterForce: 10
 --- !u!1 &1165892661995589195
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,7 +235,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1323311834457916183}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.07038359, y: 0.16326, z: 0.16326}
   m_ConstrainProportionsScale: 0

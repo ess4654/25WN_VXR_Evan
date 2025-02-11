@@ -8,6 +8,7 @@ public class Lumber : MonoBehaviour
 {
     [SerializeField] private Rigidbody logOne;
     [SerializeField] private Rigidbody logTwo;
+    [SerializeField] private float splinterForce = 10;
 
     private Collider collider;
     private const float minSplitSpeed = 5;
@@ -57,7 +58,7 @@ public class Lumber : MonoBehaviour
         {
             log.useGravity = true;
             log.isKinematic = false;
-            //log.AddForce();
+            log.AddForce(splinterForce * log.transform.right, ForceMode.Impulse);
         }
     }
 }
