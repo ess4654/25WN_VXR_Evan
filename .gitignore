@@ -16,6 +16,7 @@ CurrentMaximizeLayout.dwlt
 default-2021.dwlt
 default-2022.dwlt
 default-2023.dwlt
+default-6000.dwlt
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
