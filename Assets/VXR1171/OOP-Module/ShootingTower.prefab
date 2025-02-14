@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6066042450280860549}
   - component: {fileID: 3741665242955273559}
   - component: {fileID: 8718971482050485400}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Torret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 6970989227531626711}
   - component: {fileID: 2675610517890663407}
   - component: {fileID: 283757988129870490}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Front
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -186,7 +186,7 @@ GameObject:
   - component: {fileID: 3526100898662485493}
   - component: {fileID: 2774738591301483788}
   - component: {fileID: 7377201205335729525}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: ShootingTower
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -298,9 +298,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_playerTarget: {fileID: 0}
-  m_attackRate: 3
+  m_attackRate: 1
   m_attackRange: 10
   m_attackDamage: 1
+  m_Health: 1
+  <Name>k__BackingField: ShootingTower
   m_torret: {fileID: 6066042450280860549}
   m_projectilePrefab: {fileID: -2333537046154486453, guid: 24812226997bb8d4ead0c84bcd4645f3, type: 3}
-  <Name>k__BackingField: ShootingTower
