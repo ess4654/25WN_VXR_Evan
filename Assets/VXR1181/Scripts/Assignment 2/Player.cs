@@ -35,6 +35,11 @@ namespace Assignment2
                 zAxis++;
 
             controller.Move(moveSpeed * Time.smoothDeltaTime * new Vector3 (xAxis, 0, zAxis));
+            
+            //Rotate mesh to face input
+            var yAngle = Mathf.Atan2(xAxis, zAxis) * Mathf.Rad2Deg;
+            var targetRotation = Quaternion.Euler((yAngle + meshPivot.rotation.eulerAngles.y) % 360 * Vector3.up);
+            meshPivot.rotation = Quaternion.Slerp(meshPivot.rotation, targetRotation, Time.deltaTime * 8);
         }
 
         #region COLLISIONS
