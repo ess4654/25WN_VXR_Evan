@@ -43,7 +43,7 @@ namespace Assignment2
         {
             if(collision.TryGetComponent(out DanceFloor danceFloor) && animator)
             {
-                animator.SetInteger("Dance Animation", danceFloor.AnimationClip.GetHashCode());
+                animator.SetInteger("Dance Animation", danceFloor.AnimationClip);
                 animator.SetBool("Dancing", true);
             }
         }
