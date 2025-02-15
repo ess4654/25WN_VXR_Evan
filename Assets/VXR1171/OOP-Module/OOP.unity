@@ -878,9 +878,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7377201205335729525, guid: e2701f88b96a4004e8d21e0a192a2513, type: 3}
-      propertyPath: m_attackRange
-      value: 10
+    - target: {fileID: 2774738591301483788, guid: e2701f88b96a4004e8d21e0a192a2513, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7377201205335729525, guid: e2701f88b96a4004e8d21e0a192a2513, type: 3}
       propertyPath: m_playerTarget
@@ -889,10 +889,6 @@ PrefabInstance:
     - target: {fileID: 8381811533540980484, guid: e2701f88b96a4004e8d21e0a192a2513, type: 3}
       propertyPath: m_Name
       value: ShootingTower
-      objectReference: {fileID: 0}
-    - target: {fileID: 8381811533540980484, guid: e2701f88b96a4004e8d21e0a192a2513, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8554443952595333815, guid: e2701f88b96a4004e8d21e0a192a2513, type: 3}
       propertyPath: m_LocalPosition.x

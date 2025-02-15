@@ -24,9 +24,9 @@ TagManager:
   - Camera
   - MainCameraOnly
   - Oasis_TerrainBake
-  - 
-  - 
-  - 
+  - Bullet
+  - Turret
+  - Player
   - 
   - 
   - 
