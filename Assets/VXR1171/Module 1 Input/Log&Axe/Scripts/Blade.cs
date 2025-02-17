@@ -47,6 +47,7 @@ public class Blade : MonoBehaviour
     {
         //Set the interactor that is grabbing the axe
         interactor = e.interactableObject as XRBaseInteractor;
+        Debug.Log(e.interactorObject);
 
         //Set the controller data reader
         controllerDataReader = interactor.gameObject.GetComponentInParent<ControllerDataReader>();

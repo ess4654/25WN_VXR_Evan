@@ -20,6 +20,12 @@ public class Lumber : MonoBehaviour
         collider.isTrigger = true;
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Backspace))
+            SplitLog();
+    }
+
     private void OnTriggerEnter(Collider collision)
     {
         if(collision.CompareTag("Blade") && collision.TryGetComponent(out Blade blade)) //the blade hit this lumber
@@ -38,14 +44,21 @@ public class Lumber : MonoBehaviour
         var velocity = blade.ControllerDataReader.Velocity.magnitude;
         if (velocity >= minSplitSpeed)
         {
-            EnablePhysics(logOne);
-            EnablePhysics(logTwo);
+            SplitLog();
         }
         else if(velocity >= minStickSpeed) //did not hit the log with enough force
         {
+            Debug.Log("Drop Blade");
             blade.Drop();
             blade.DisablePhysics();
         }
+    }
+
+    private void SplitLog()
+    {
+        Debug.Log("Split Log");
+        EnablePhysics(logOne);
+        EnablePhysics(logTwo);
     }
 
     /// <summary>

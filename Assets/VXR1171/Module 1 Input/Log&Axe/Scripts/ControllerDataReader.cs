@@ -16,6 +16,6 @@ public class ControllerDataReader : MonoBehaviour
     private void Update()
     {
         Velocity = velocityAction.action.ReadValue<Vector3>();
-        Debug.Log(name + ": " + Velocity);
+        //Debug.Log(name + ": " + Velocity);
     }
 }
