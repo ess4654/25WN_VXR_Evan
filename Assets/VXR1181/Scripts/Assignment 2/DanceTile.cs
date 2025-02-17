@@ -23,12 +23,11 @@ namespace Assignment2
 
         private IEnumerator Loop()
         {
-            while(this)
-            {
-                props.SetColor("_BaseColor", new Color(Random.value, Random.value, Random.value, 1f));
-                renderer.SetPropertyBlock(props);
-                yield return new WaitForSeconds(.25f);
-            }
+            props.SetColor("_BaseColor", new Color(Random.value, Random.value, Random.value, 1f));
+            renderer.SetPropertyBlock(props);
+            yield return new WaitForSeconds(.25f);
+
+            StartCoroutine(Loop());
         }
     }
 }
