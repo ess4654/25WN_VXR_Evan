@@ -30,11 +30,13 @@ public class ClawMachineHandle : MonoBehaviour
             rotation.z = ClampAngle(rotation.z, -rotationRadius, rotationRadius);
             transform.localEulerAngles = rotation;
 
-            Axis = new Vector2 (transform.localEulerAngles.z / rotationRadius, transform.localEulerAngles.x / rotationRadius);
+            float x = rotation.z > 180 ? rotation.z - 360 : rotation.z;
+            float y = rotation.x > 180 ? rotation.x - 360 : rotation.x;
+            Axis = new Vector2 (x / rotationRadius, -y / rotationRadius);
         }
         else
             Axis = Vector2.zero;
 
-        Debug.Log("Axis: " + Axis);
+        //Debug.Log("Axis: " + Axis);
     }
 }

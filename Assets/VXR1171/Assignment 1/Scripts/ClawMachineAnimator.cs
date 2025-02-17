@@ -1,6 +1,8 @@
 using Shared.Helpers;
+using System.Drawing;
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace ArcadeGame.Views.Machines
 {
@@ -35,13 +37,17 @@ namespace ArcadeGame.Views.Machines
         [SerializeField] private Vector2 clawExtensionRange;
         [SerializeField] private float clawExtensionTime = 1.5f;
         [SerializeField] private float bladeClosingTime = 1f;
+        [SerializeField] private InputActionProperty dropAction;
 
         [Header("Audio")]
         [SerializeField] private AudioSource movementSounds;
         [SerializeField] private AudioSource clawSounds;
+        [SerializeField] private AudioSource uiSounds;
+        [SerializeField] private AudioClip dropClawSound;
         [SerializeField] private AudioClip clawClose;
         [SerializeField] private AudioClip clawOpen;
 
+        private bool dropping;
         private bool clawExtensionCompete;
         private Animator controller;
 
@@ -59,6 +65,8 @@ namespace ArcadeGame.Views.Machines
         {
             if (joystick != null)
                 ReadAxis(joystick.Axis);
+            if (dropAction != null && dropAction.action.ReadValue<float>() == 1)
+                AnimateClawDrop();
         }
 
         #region METHODS
@@ -72,27 +80,34 @@ namespace ArcadeGame.Views.Machines
             var clampedAxis = axis;
             clampedAxis.x = Mathf.Abs(axis.x) < joystickDeadZone ? 0 : axis.x;
             clampedAxis.y = Mathf.Abs(axis.y) < joystickDeadZone ? 0 : axis.y;
-            AnimateRails(in clampedAxis);
+            bool positionChanged = AnimateRails(in clampedAxis);
 
             if (movementSounds)
-                movementSounds.mute = clampedAxis == Vector2.zero;
+                movementSounds.mute = dropping || clampedAxis == Vector2.zero || !positionChanged;
         }
 
         /// <summary>
         ///     Animates the movement of the claw machine rails and claw block.
         /// </summary>
         /// <param name="axis">Axis of the input.</param>
-        private void AnimateRails(in Vector2 axis)
+        private bool AnimateRails(in Vector2 axis)
         {
+            if(dropping) return false;
+
+            Vector3 railStartPosition = rails.localPosition;
+            Vector3 clawStartPosition = clawBlock.localPosition;
+
             //move railing
-            var railPosition = rails.localPosition + (axis.y * forwardMovementSpeed * Time.smoothDeltaTime * -rails.right);
+            var railPosition = rails.localPosition + (axis.y * forwardMovementSpeed * Time.smoothDeltaTime * rails.forward);
             railPosition.z = Mathf.Clamp(railPosition.z, railBoundaries.x, railBoundaries.y);
             rails.localPosition = railPosition;
 
             //move claw block
-            var blockPosition = clawBlock.localPosition + (axis.x * horizontalMovementSpeed * Time.smoothDeltaTime * clawBlock.forward);
+            var blockPosition = clawBlock.localPosition + (axis.x * horizontalMovementSpeed * Time.smoothDeltaTime * clawBlock.right);
             blockPosition.x = Mathf.Clamp(blockPosition.x, blockBoundaries.x, blockBoundaries.y);
             clawBlock.localPosition = blockPosition;
+
+            return railStartPosition != rails.localPosition || clawStartPosition != clawBlock.localPosition;
         }
 
         /// <summary>
@@ -101,6 +116,9 @@ namespace ArcadeGame.Views.Machines
         /// <returns>Completed dropping animation</returns>
         public async Task AnimateClawDrop()
         {
+            if (dropping) return;
+
+            dropping = true;
             if (movementSounds)
                 movementSounds.mute = true;
 
@@ -110,6 +128,13 @@ namespace ArcadeGame.Views.Machines
             if (this == null) return;
 
             await Timer.WaitUntil(() => this == null || clawExtensionCompete);
+
+            await AnimateClawBlades(true);
+
+            //await AnimatePrizeDrop();
+            //await AnimateClawReturn();
+
+            dropping = false;
         }
 
         /// <summary>
@@ -118,6 +143,9 @@ namespace ArcadeGame.Views.Machines
         /// <returns>Completed claw extension method.</returns>
         private async Task ExtendAndRetractClaw()
         {
+            if (uiSounds) //play audio in 2D space
+                uiSounds.PlayOneShot(dropClawSound);
+
             clawExtensionCompete = false;
             var startY = clawExtensionRange.x;
             var endY = clawExtensionRange.y;
