@@ -1,3 +1,4 @@
+using Shared.Editor;
 using System;
 using UnityEngine;
 
@@ -19,7 +20,7 @@ where TState : Enum
     ///     The current state of the machine.
     /// </summary>
     public TState CurrentState => currentState;
-    [SerializeField] protected TState currentState;
+    [SerializeField, ReadOnly] protected TState currentState;
     
     /// <summary>
     ///     The state of the machine when started.
