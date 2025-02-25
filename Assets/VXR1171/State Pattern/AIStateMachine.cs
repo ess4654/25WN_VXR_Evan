@@ -37,6 +37,8 @@ public class AIStateMachine : StateMachineBase<AIStates>
         }
     }
 
+    private bool PlayerDead => player.name.Contains("Dead");
+
     #endregion
 
     #region ENGINE
@@ -58,7 +60,7 @@ public class AIStateMachine : StateMachineBase<AIStates>
             if (CurrentState == AIStates.Fleeing)
                 return DistanceToPlayer > pursueRange; //we go back to patrolling when fleeing is done and player is out of AI's detection range
             else if (CurrentState == AIStates.Fighting)
-                return player.name.Contains("Dead");
+                return PlayerDead;
 
             //I made a mistake in the state diagram as the player will never be outside the
             //pursue range from the fighting state as they will transition to pursue
@@ -97,10 +99,13 @@ public class AIStateMachine : StateMachineBase<AIStates>
     {
         if (newState == AIStates.Stunned) //enemy has been stunned
             stunCountdown = stunTime;
-        else if (newState == AIStates.Dead) //enemy has died
-            isDead = true;
         else if (newState == AIStates.Fleeing)
             currentFlee = 0;
+        else if (newState == AIStates.Dead) //enemy has died
+        {
+            isDead = true;
+            GetComponent<MeshRenderer>().enabled = false;
+        }
     }
 
     #endregion
@@ -119,7 +124,7 @@ public class AIStateMachine : StateMachineBase<AIStates>
                 break;
 
             case AIStates.Patrolling:
-                if (DistanceToPlayer < pursueRange)
+                if (DistanceToPlayer < pursueRange && !PlayerDead)
                     ChangeState(AIStates.Pusuing); //we detected the player inside of our pursue range
 
                 break;
@@ -138,7 +143,7 @@ public class AIStateMachine : StateMachineBase<AIStates>
                 break;
 
             case AIStates.Pusuing:
-                if (DistanceToPlayer < attackRange)
+                if (DistanceToPlayer < attackRange && !PlayerDead)
                     ChangeState(AIStates.Fighting); //AI has entered the range to attack the player
 
                 break;
@@ -156,7 +161,7 @@ public class AIStateMachine : StateMachineBase<AIStates>
         if (!CanTransitionTo(toState))
             throw new ForbiddenStateException(CurrentState, toState);
         if (MustRequire(toState, out AIStates requiredState))
-            throw new RequiredStateException(requiredState);
+            throw new RequiredStateException(toState, requiredState);
 
         UpdateState(toState); //engine
     }
@@ -195,9 +200,12 @@ public class AIStateMachine : StateMachineBase<AIStates>
     void TestSetState() => ChangeState(m_state);
     void KillPlayer()
     {
-        player.name = "Player (Dead)";
-        if (CurrentState == AIStates.Fighting)
+        if (CurrentState == AIStates.Fighting) //we can only kill the player when fighting
+        {
+            player.name = "Player (Dead)";
+            player.GetComponent<MeshRenderer>().enabled = false;
             ChangeState(AIStates.Patrolling); //return to patrolling after killing the player
+        }
     }
 
     #endregion

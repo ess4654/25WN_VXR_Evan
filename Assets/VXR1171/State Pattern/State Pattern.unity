@@ -375,7 +375,7 @@ MonoBehaviour:
   currentFlee: 0
   distanceToPlayer: 0
   m_state: 0
-  m_damage: 0
+  m_damage: 40
   m_TakeDamage: 0
   m_ChangeState: 0
   m_KillPlayer: 0
