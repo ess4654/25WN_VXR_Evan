@@ -5,7 +5,7 @@ using UnityEngine;
 ///     Base class used by state machines.
 /// </summary>
 /// <typeparam name="TState">Type of enum state being managed.</typeparam>
-public abstract class StateMachineBase<TState>
+public abstract class StateMachineBase<TState> : MonoBehaviour
 where TState : Enum
 {
     #region VARIABLE DECLARATIONS
