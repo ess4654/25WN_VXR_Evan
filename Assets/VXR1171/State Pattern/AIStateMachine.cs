@@ -189,7 +189,7 @@ public class AIStateMachine : StateMachineBase<AIStates>
     [Space]
     [SerializeField, InspectorButton("TestTakeDamage")] bool m_TakeDamage;
     [SerializeField, InspectorButton("TestSetState")] bool m_ChangeState;
-    [SerializeField, InspectorButton("TestSetState")] bool m_KillPlayer;
+    [SerializeField, InspectorButton("KillPlayer")] bool m_KillPlayer;
     
     void TestTakeDamage() => TakeDamage(m_damage);
     void TestSetState() => ChangeState(m_state);

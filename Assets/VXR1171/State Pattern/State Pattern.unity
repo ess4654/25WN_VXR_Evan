@@ -345,7 +345,7 @@ Transform:
   m_GameObject: {fileID: 609126968}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.952, z: 0}
+  m_LocalPosition: {x: -11.29, y: 0.952, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -369,10 +369,11 @@ MonoBehaviour:
   attackRange: 1.5
   stunTime: 3
   fleeDistance: 10
-  health: 100
   isDead: 0
+  health: 100
   stunCountdown: 0
   currentFlee: 0
+  distanceToPlayer: 0
   m_state: 0
   m_damage: 0
   m_TakeDamage: 0
