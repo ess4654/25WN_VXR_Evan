@@ -8,8 +8,14 @@ public class RequiredStateException : System.Exception
     /// </summary>
     public AIStates RequiredState { get; private set; }
 
-    public RequiredStateException(AIStates state) : base($"Transition must happen from the {state} state.")
+    /// <summary>
+    ///     The state attempting to transition to.
+    /// </summary>
+    public AIStates ToState { get; private set; }
+
+    public RequiredStateException(AIStates toState, AIStates requiredState) : base($"Transition to {toState} must happen from the {requiredState} state.")
     {
-        RequiredState = state;
+        ToState = ToState;
+        RequiredState = requiredState;
     }
 }

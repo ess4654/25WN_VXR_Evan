@@ -1,3 +1,4 @@
+using Shared.Editor;
 using System;
 using UnityEngine;
 
@@ -5,7 +6,7 @@ using UnityEngine;
 ///     Base class used by state machines.
 /// </summary>
 /// <typeparam name="TState">Type of enum state being managed.</typeparam>
-public abstract class StateMachineBase<TState>
+public abstract class StateMachineBase<TState> : MonoBehaviour
 where TState : Enum
 {
     #region VARIABLE DECLARATIONS
@@ -19,7 +20,7 @@ where TState : Enum
     ///     The current state of the machine.
     /// </summary>
     public TState CurrentState => currentState;
-    [SerializeField] protected TState currentState;
+    [SerializeField, ReadOnly] protected TState currentState;
     
     /// <summary>
     ///     The state of the machine when started.
