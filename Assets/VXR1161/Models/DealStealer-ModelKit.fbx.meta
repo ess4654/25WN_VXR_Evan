@@ -3,7 +3,32 @@ guid: 80810afacaad1b04cae4a3adc8adb6a4
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: d626f03d2331c1247abcde09c13289e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: I-Beam
+    second: {fileID: 2100000, guid: fa17c733473e32f45b1675cdbf9db3ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skylight Metal
+    second: {fileID: 2100000, guid: 31caa0c984657464a955afcccf22f126, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Treads
+    second: {fileID: 2100000, guid: e5058c0147dac35488e7f34f5254fcde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trim Sheet
+    second: {fileID: 2100000, guid: 6c07d77ad05363a4fb39b640c821874a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

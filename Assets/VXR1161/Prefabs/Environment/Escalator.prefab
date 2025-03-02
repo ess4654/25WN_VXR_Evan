@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 374380136323698099}
   - component: {fileID: 7790109208038286185}
   - component: {fileID: 2287414003704308859}
+  - component: {fileID: 2639041833691396412}
   m_Layer: 0
   m_Name: Escalator
   m_TagString: Untagged
@@ -64,7 +65,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 6c07d77ad05363a4fb39b640c821874a, type: 2}
+  - {fileID: 2100000, guid: e5058c0147dac35488e7f34f5254fcde, type: 2}
+  - {fileID: 2100000, guid: d626f03d2331c1247abcde09c13289e3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -86,3 +89,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2639041833691396412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6468633631073010875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cae062f0a55b5a4ab9864ca0421a475, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialIndex: 1
+  speed: 0.08
+  reverse: 0
