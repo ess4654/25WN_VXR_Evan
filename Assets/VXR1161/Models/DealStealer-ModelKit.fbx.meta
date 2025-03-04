@@ -17,6 +17,16 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Railing
+    second: {fileID: 2100000, guid: be13f77023438ca4ab6c5382bbdc5386, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Screen
+    second: {fileID: 2100000, guid: 380db7d590419444d8df03b86397a83e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Skylight Metal
     second: {fileID: 2100000, guid: 31caa0c984657464a955afcccf22f126, type: 2}
   - first:
@@ -29,6 +39,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Trim Sheet
     second: {fileID: 2100000, guid: 6c07d77ad05363a4fb39b640c821874a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Water
+    second: {fileID: 2100000, guid: d50e93fa6540fff4786bc8cd248427b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wet Floor.Graphic
+    second: {fileID: 2100000, guid: 7ec3910c222058a40b200061ae39a97a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
