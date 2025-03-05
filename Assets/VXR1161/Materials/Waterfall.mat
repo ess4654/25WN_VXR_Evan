@@ -27,10 +27,10 @@ Material:
     m_Ints: []
     m_Floats:
     - _HeightOffset: 0.12
-    - _RippleAmount: 80
-    - _Speed: 0.01
+    - _RippleAmount: 60
+    - _Speed: 0.015
     m_Colors:
-    - _Color: {r: 0.5444, g: 0.68538994, b: 0.87169814, a: 0.39607844}
+    - _Color: {r: 0.5254902, g: 0.7411765, b: 0.90588236, a: 0.38431373}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &587974495858328755
