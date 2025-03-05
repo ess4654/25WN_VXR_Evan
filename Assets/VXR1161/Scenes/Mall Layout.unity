@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 82e8b94aef0dc314db0e2294fea5a659, type: 2}
+  m_LightingDataAsset: {fileID: 0}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 8ef90a5dfd9def246be9dc912a2ba3fc, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -27259,8 +27259,12 @@ PrefabInstance:
       value: Floor Tile D (8)
       objectReference: {fileID: 0}
     - target: {fileID: 5644690301753813055, guid: f12ecfa2f1b066640ad98ef1a3d7cf6a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4697
+      objectReference: {fileID: 0}
+    - target: {fileID: 5644690301753813055, guid: f12ecfa2f1b066640ad98ef1a3d7cf6a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 23
+      value: 22.9393
       objectReference: {fileID: 0}
     - target: {fileID: 5644690301753813055, guid: f12ecfa2f1b066640ad98ef1a3d7cf6a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -63480,7 +63484,7 @@ MonoBehaviour:
   lowestSubdivLevelOverride: 0
   highestSubdivLevelOverride: 7
   overridesSubdivLevels: 0
-  mightNeedRebaking: 0
+  mightNeedRebaking: 1
   cachedTransform:
     e00: 1
     e01: 0
@@ -81695,7 +81699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a83d2f7ae04ab6f4f99b0d85377be998, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  serializedBakingSet: {fileID: 11400000, guid: 236c6dadfa773ba4a9f32c95d0faa906, type: 2}
+  serializedBakingSet: {fileID: 0}
   sceneGUID: 79650bf74ffe1a8438165e30e5f840f3
   obsoleteAsset: {fileID: 0}
   obsoleteCellSharedDataAsset: {fileID: 0}
@@ -94805,6 +94809,10 @@ PrefabInstance:
     - target: {fileID: 1397027218500127259, guid: f12ecfa2f1b066640ad98ef1a3d7cf6a, type: 3}
       propertyPath: m_Name
       value: Floor Tile D (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5644690301753813055, guid: f12ecfa2f1b066640ad98ef1a3d7cf6a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4697
       objectReference: {fileID: 0}
     - target: {fileID: 5644690301753813055, guid: f12ecfa2f1b066640ad98ef1a3d7cf6a, type: 3}
       propertyPath: m_LocalPosition.x
