@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4363423016710632012}
   - component: {fileID: 7369723989118089378}
   - component: {fileID: 8973907519369113627}
+  - component: {fileID: 8195523273195234524}
   m_Layer: 0
   m_Name: Security Gate
   m_TagString: Untagged
@@ -65,7 +66,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6c07d77ad05363a4fb39b640c821874a, type: 2}
+  - {fileID: 2100000, guid: 647a649627a748c4b8c08db9829b3bb6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -106,5 +107,18 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2, y: 2.0000002, z: 2.0000002}
-  m_Center: {x: 1, y: 1, z: -1}
+  m_Size: {x: 0.06499958, y: 3.0000002, z: 2.8075001}
+  m_Center: {x: 0.0625, y: 1.5, z: -1.5}
+--- !u!114 &8195523273195234524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3111955714459262261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 723a817103b2ba144919cfbc67b0a72e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorPosition: 0
