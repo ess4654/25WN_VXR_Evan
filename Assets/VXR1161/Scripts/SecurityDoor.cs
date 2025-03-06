@@ -43,6 +43,7 @@ namespace MegaMall
             collider.center = colliderCenter + yPos;
             if (doorBottom != null)
                 doorBottom.localPosition = yPos;
+
         }
     }
 }
