@@ -7,6 +7,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Entrance Sign
+    second: {fileID: 2100000, guid: f3d0ba81ecbb315488aa7a72cf0c4ec8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Glass
     second: {fileID: 2100000, guid: d626f03d2331c1247abcde09c13289e3, type: 2}
   - first:
