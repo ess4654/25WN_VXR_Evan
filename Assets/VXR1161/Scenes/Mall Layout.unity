@@ -6507,6 +6507,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1846656589}
     m_Modifications:
+    - target: {fileID: 1066880930708225667, guid: 33c49eb83e0852c4bad789d411706279, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3111955714459262261, guid: 33c49eb83e0852c4bad789d411706279, type: 3}
       propertyPath: m_Name
       value: Security Gate (5)
@@ -6546,6 +6550,10 @@ PrefabInstance:
     - target: {fileID: 7557517190580131375, guid: 33c49eb83e0852c4bad789d411706279, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973907519369113627, guid: 33c49eb83e0852c4bad789d411706279, type: 3}
+      propertyPath: m_Center.y
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -77034,7 +77042,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7007578963829941158, guid: 38baaaadef5b42641a0154ea2fe1691f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 20.125
+      value: 20.135
       objectReference: {fileID: 0}
     - target: {fileID: 7007578963829941158, guid: 38baaaadef5b42641a0154ea2fe1691f, type: 3}
       propertyPath: m_LocalPosition.y

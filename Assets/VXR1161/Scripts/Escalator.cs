@@ -36,7 +36,7 @@ namespace MegaMall
             renderer.SetPropertyBlock(treadProps, treadIndex);
 
             //increase offset
-            var delta = Time.smoothDeltaTime * speed * (reverse ? -1 : 1);
+            var delta = Time.smoothDeltaTime * (speed / 20f) * (reverse ? -1 : 1);
             offset += delta;
 
             //update the railing
