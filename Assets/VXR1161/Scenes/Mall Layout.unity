@@ -6954,6 +6954,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 914621096}
     m_Modifications:
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxSize.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxSize.y
+      value: 1.5999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxSize.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxOffset.x
+      value: -0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxOffset.y
+      value: 0.79999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxOffset.z
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6956558054264319464, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
       propertyPath: m_Name
       value: Glass Banister (3)
@@ -37213,6 +37237,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 914621096}
     m_Modifications:
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxSize.x
+      value: 2.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxSize.y
+      value: 1.5999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxOffset.x
+      value: -1.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxOffset.y
+      value: 0.79999995
+      objectReference: {fileID: 0}
     - target: {fileID: 6956558054264319464, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
       propertyPath: m_Name
       value: Glass Banister (1)
@@ -58036,6 +58076,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 914621096}
     m_Modifications:
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxSize.x
+      value: 2.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxSize.y
+      value: 1.5999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxSize.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxOffset.x
+      value: 1.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxOffset.y
+      value: 0.79999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxOffset.z
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6956558054264319464, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
       propertyPath: m_Name
       value: Glass Banister (2)
@@ -72605,6 +72669,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 914621096}
     m_Modifications:
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxSize.x
+      value: 1.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxSize.y
+      value: 1.5999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxSize.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxOffset.x
+      value: -0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxOffset.y
+      value: 0.79999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxOffset.z
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6956558054264319464, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
       propertyPath: m_Name
       value: Glass Banister (4)
@@ -90259,6 +90347,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 914621096}
     m_Modifications:
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxSize.x
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxSize.y
+      value: 1.5999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxSize.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxOffset.x
+      value: 1.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxOffset.y
+      value: 0.79999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxOffset.z
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6956558054264319464, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
       propertyPath: m_Name
       value: Glass Banister
@@ -103927,7 +104039,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7007578963829941158, guid: 38baaaadef5b42641a0154ea2fe1691f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: 4.074
       objectReference: {fileID: 0}
     - target: {fileID: 7007578963829941158, guid: 38baaaadef5b42641a0154ea2fe1691f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -108001,6 +108113,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 914621096}
     m_Modifications:
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxSize.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxSize.y
+      value: 1.5999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxSize.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxOffset.x
+      value: -0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxOffset.y
+      value: 0.79999995
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127116379425978454, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
+      propertyPath: m_BoxOffset.z
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6956558054264319464, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
       propertyPath: m_Name
       value: Glass Banister (5)
@@ -108019,7 +108155,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8474389463756712728, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 30.28
+      value: 30.27
       objectReference: {fileID: 0}
     - target: {fileID: 8474389463756712728, guid: 1ba72d9409766a14db5c979b2ff512ba, type: 3}
       propertyPath: m_LocalRotation.w
@@ -110613,7 +110749,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7007578963829941158, guid: 38baaaadef5b42641a0154ea2fe1691f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: 4.074
       objectReference: {fileID: 0}
     - target: {fileID: 7007578963829941158, guid: 38baaaadef5b42641a0154ea2fe1691f, type: 3}
       propertyPath: m_LocalPosition.z
