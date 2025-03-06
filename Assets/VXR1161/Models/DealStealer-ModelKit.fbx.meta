@@ -18,7 +18,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Railing
-    second: {fileID: 2100000, guid: be13f77023438ca4ab6c5382bbdc5386, type: 2}
+    second: {fileID: 2100000, guid: 6c07d77ad05363a4fb39b640c821874a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -33,7 +33,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Treads
-    second: {fileID: 2100000, guid: e5058c0147dac35488e7f34f5254fcde, type: 2}
+    second: {fileID: 2100000, guid: 6c07d77ad05363a4fb39b640c821874a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

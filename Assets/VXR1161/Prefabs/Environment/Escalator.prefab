@@ -66,9 +66,9 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 6c07d77ad05363a4fb39b640c821874a, type: 2}
-  - {fileID: 2100000, guid: e5058c0147dac35488e7f34f5254fcde, type: 2}
+  - {fileID: 2100000, guid: 6c07d77ad05363a4fb39b640c821874a, type: 2}
   - {fileID: 2100000, guid: d626f03d2331c1247abcde09c13289e3, type: 2}
-  - {fileID: 2100000, guid: e5058c0147dac35488e7f34f5254fcde, type: 2}
+  - {fileID: 2100000, guid: 6c07d77ad05363a4fb39b640c821874a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -102,6 +102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cae062f0a55b5a4ab9864ca0421a475, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materialIndex: 1
+  treadIndex: 1
+  railingIndex: 3
   speed: 0.08
   reverse: 0

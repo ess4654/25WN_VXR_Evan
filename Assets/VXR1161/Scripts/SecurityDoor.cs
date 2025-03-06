@@ -9,6 +9,7 @@ namespace MegaMall
     public class SecurityDoor : MonoBehaviour
     {
         [SerializeField, Range(0f, 1f)] private float doorPosition;
+        [SerializeField] private Transform doorBottom;
 
         private MeshRenderer renderer;
         private MaterialPropertyBlock props;
@@ -23,7 +24,9 @@ namespace MegaMall
 
         private void SetDoorPosition()
         {
-            if(collider == null)
+            if(doorBottom == null)
+                doorBottom = transform.GetChild(0);
+            if (collider == null)
                 collider = GetComponent<BoxCollider>();
             if(renderer == null)
                 renderer = GetComponent<MeshRenderer>();
@@ -36,7 +39,10 @@ namespace MegaMall
             props.SetVector(property, new Vector2(0, doorPosition * threshold));
             renderer.SetPropertyBlock(props);
 
-            collider.center = colliderCenter + (doorHeight * doorPosition * Vector3.up);
+            var yPos = (doorHeight * doorPosition * Vector3.up);
+            collider.center = colliderCenter + yPos;
+            if (doorBottom != null)
+                doorBottom.localPosition = yPos;
         }
     }
 }
