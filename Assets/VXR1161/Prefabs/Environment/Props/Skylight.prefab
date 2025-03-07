@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3482219976398208650}
   - component: {fileID: 8234028977859476536}
   - component: {fileID: 5212192342068433052}
+  - component: {fileID: 280430303628706898}
   m_Layer: 0
   m_Name: Skylight
   m_TagString: Untagged
@@ -121,3 +122,24 @@ ReflectionProbe:
   m_UseOcclusionCulling: 1
   m_Importance: 1
   m_CustomBakedTexture: {fileID: 0}
+--- !u!65 &280430303628706898
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7361064184917563080}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 6.0026264, y: 15.001202, z: 1.3035905}
+  m_Center: {x: 3.0013132, y: 7.500601, z: 0.33683446}

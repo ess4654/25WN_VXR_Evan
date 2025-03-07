@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 82e8b94aef0dc314db0e2294fea5a659, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 8ef90a5dfd9def246be9dc912a2ba3fc, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -29902,8 +29902,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 482703452}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.13428882, y: -0.8211131, z: 0.20805016, w: 0.5142519}
-  m_LocalPosition: {x: 5.855582, y: 5.184972, z: 21.451252}
+  m_LocalRotation: {x: 0.044640265, y: -0.8265252, z: 0.060279705, w: 0.5578796}
+  m_LocalPosition: {x: 22.796589, y: 2.2684054, z: -5.067257}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -82920,7 +82920,7 @@ MonoBehaviour:
   lowestSubdivLevelOverride: 0
   highestSubdivLevelOverride: 7
   overridesSubdivLevels: 0
-  mightNeedRebaking: 1
+  mightNeedRebaking: 0
   cachedTransform:
     e00: 1
     e01: 0
@@ -106644,7 +106644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a83d2f7ae04ab6f4f99b0d85377be998, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  serializedBakingSet: {fileID: 0}
+  serializedBakingSet: {fileID: 11400000, guid: 236c6dadfa773ba4a9f32c95d0faa906, type: 2}
   sceneGUID: 79650bf74ffe1a8438165e30e5f840f3
   obsoleteAsset: {fileID: 0}
   obsoleteCellSharedDataAsset: {fileID: 0}

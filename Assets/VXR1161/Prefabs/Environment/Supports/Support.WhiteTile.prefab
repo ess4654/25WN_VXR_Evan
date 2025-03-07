@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4774467946507896618}
   - component: {fileID: 2861204739756505704}
   - component: {fileID: 9097639342457010418}
+  - component: {fileID: 7080716242138451953}
   m_Layer: 0
   m_Name: Support.WhiteTile
   m_TagString: Untagged
@@ -86,3 +87,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &7080716242138451953
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5979757591686795602}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.5691256, y: 1.9999999, z: 0.5743416}
+  m_Center: {x: 0.26000026, y: 0.9999998, z: -0.25999996}
