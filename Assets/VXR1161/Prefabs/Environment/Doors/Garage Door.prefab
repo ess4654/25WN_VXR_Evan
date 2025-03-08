@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 708612278585087954}
   - component: {fileID: 1502232404656843136}
   - component: {fileID: 7876861035519790765}
+  - component: {fileID: 8615778236605978921}
   m_Layer: 0
   m_Name: Garage Door
   m_TagString: Untagged
@@ -124,6 +125,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   doorPosition: 0
   doorBottom: {fileID: 4855889195406023311}
+--- !u!114 &8615778236605978921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561025958052741417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9cdb65d34bc0374c9c448ec3cd1cd02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alpha: 1
 --- !u!1 &4323110558968142061
 GameObject:
   m_ObjectHideFlags: 0

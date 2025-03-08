@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2439916063121186417}
   - component: {fileID: 4815761751963091677}
   - component: {fileID: 2788363556472286318}
+  - component: {fileID: 906990140847021944}
   m_Layer: 0
   m_Name: Wall E.Half
   m_TagString: Untagged
@@ -108,3 +109,16 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2, y: 2.0000002, z: 2.0000002}
   m_Center: {x: 1, y: 1.0000001, z: -1}
+--- !u!114 &906990140847021944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6004226260642248255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9cdb65d34bc0374c9c448ec3cd1cd02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alpha: 1
