@@ -7488,7 +7488,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8123483182203885874, guid: 6a135f630e7c52f41b87982f8771d949, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.9
+      value: 0.9190799
       objectReference: {fileID: 0}
     - target: {fileID: 8123483182203885874, guid: 6a135f630e7c52f41b87982f8771d949, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18609,7 +18609,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!64 &284838598
 MeshCollider:
@@ -18641,7 +18641,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 284838597}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
@@ -30601,8 +30601,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 482703452}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.017827604, y: -0.9314708, z: 0.046492442, w: -0.3603926}
-  m_LocalPosition: {x: 7.9576693, y: 3.2779992, z: 25.22485}
+  m_LocalRotation: {x: 0.025867328, y: 0.93569845, z: -0.07032553, w: 0.3447516}
+  m_LocalPosition: {x: 10.861987, y: 3.0925467, z: 24.125626}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -84796,7 +84796,7 @@ Transform:
   m_GameObject: {fileID: 1395143615}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 4.5150003, z: 0}
+  m_LocalPosition: {x: 16, y: 5.006704, z: 17.835493}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -84815,7 +84815,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mode: 1
-  size: {x: 303, y: 12.050001, z: 303}
+  size: {x: 51, y: 13.023851, z: 57.329018}
   overrideRendererFilters: 0
   minRendererVolumeSize: 0.1
   objectLayerMask:
@@ -84833,7 +84833,7 @@ MonoBehaviour:
     e10: 0
     e11: 1
     e12: 0
-    e13: -4.5150003
+    e13: -5.0043144
     e20: 0
     e21: 0
     e22: 1
@@ -84842,7 +84842,7 @@ MonoBehaviour:
     e31: 0
     e32: 0
     e33: 1
-  cachedHashCode: 294985820
+  cachedHashCode: 1647960680
   fillEmptySpaces: 0
   version: 2
   globalVolume: 0
@@ -126366,7 +126366,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8123483182203885874, guid: 6a135f630e7c52f41b87982f8771d949, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.9
+      value: 0.9190799
       objectReference: {fileID: 0}
     - target: {fileID: 8123483182203885874, guid: 6a135f630e7c52f41b87982f8771d949, type: 3}
       propertyPath: m_LocalPosition.x
