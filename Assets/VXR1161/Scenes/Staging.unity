@@ -3718,6 +3718,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling Tile A
       objectReference: {fileID: 0}
+    - target: {fileID: 1061628500886306793, guid: c286160615b00484ca8de4fad03d31af, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 126
+      objectReference: {fileID: 0}
     - target: {fileID: 4499889531126858055, guid: c286160615b00484ca8de4fad03d31af, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14
