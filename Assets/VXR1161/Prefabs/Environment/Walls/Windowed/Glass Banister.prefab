@@ -108,7 +108,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 3.520001, y: 2.186667, z: 2.0000007}
+  m_Size: {x: 3.52, y: 2.186667, z: 2}
   m_Center: {x: 1.7600005, y: 1.0933335, z: -1.0000001}
 --- !u!215 &1127116379425978454
 ReflectionProbe:

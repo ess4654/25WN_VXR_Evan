@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7790109208038286185}
   - component: {fileID: 2287414003704308859}
   - component: {fileID: 2639041833691396412}
+  - component: {fileID: 1563878213760224623}
   m_Layer: 0
   m_Name: Escalator
   m_TagString: Untagged
@@ -106,3 +107,25 @@ MonoBehaviour:
   railingIndex: 3
   speed: 1.2
   reverse: 0
+--- !u!64 &1563878213760224623
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6468633631073010875}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3019367832447018893, guid: 80810afacaad1b04cae4a3adc8adb6a4, type: 3}
