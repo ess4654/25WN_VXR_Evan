@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3424680776161098508
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2778256839289977967}
+    m_Modifications:
+    - target: {fileID: 125565370828758503, guid: 25aedfb6fa93b19428e9d1873c70b11d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 125565370828758503, guid: 25aedfb6fa93b19428e9d1873c70b11d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 125565370828758503, guid: 25aedfb6fa93b19428e9d1873c70b11d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4446666819759075962, guid: 25aedfb6fa93b19428e9d1873c70b11d, type: 3}
+      propertyPath: m_Name
+      value: Flower Pot A
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 25aedfb6fa93b19428e9d1873c70b11d, type: 3}
+--- !u!4 &3330675873541416683 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 125565370828758503, guid: 25aedfb6fa93b19428e9d1873c70b11d, type: 3}
+  m_PrefabInstance: {fileID: 3424680776161098508}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4221905898373466160
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2024756073721820255, guid: b812c7d4aa5ad3e4f8e69b450bcb9ae0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024756073721820255, guid: b812c7d4aa5ad3e4f8e69b450bcb9ae0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024756073721820255, guid: b812c7d4aa5ad3e4f8e69b450bcb9ae0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024756073721820255, guid: b812c7d4aa5ad3e4f8e69b450bcb9ae0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024756073721820255, guid: b812c7d4aa5ad3e4f8e69b450bcb9ae0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024756073721820255, guid: b812c7d4aa5ad3e4f8e69b450bcb9ae0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3448938837938086944, guid: b812c7d4aa5ad3e4f8e69b450bcb9ae0, type: 3}
+      propertyPath: m_Name
+      value: Palm Tree.Flower Pot A
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2024756073721820255, guid: b812c7d4aa5ad3e4f8e69b450bcb9ae0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3330675873541416683}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b812c7d4aa5ad3e4f8e69b450bcb9ae0, type: 3}
+--- !u!4 &2778256839289977967 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2024756073721820255, guid: b812c7d4aa5ad3e4f8e69b450bcb9ae0, type: 3}
+  m_PrefabInstance: {fileID: 4221905898373466160}
+  m_PrefabAsset: {fileID: 0}

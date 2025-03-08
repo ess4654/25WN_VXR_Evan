@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3080379934802497601
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5823683946560622396}
+    m_Modifications:
+    - target: {fileID: 1387081076929719137, guid: 9805e66b14570564a9a3ce65e3c4cdf8, type: 3}
+      propertyPath: m_Name
+      value: Flower Pot B
+      objectReference: {fileID: 0}
+    - target: {fileID: 5824727283849570201, guid: 9805e66b14570564a9a3ce65e3c4cdf8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5824727283849570201, guid: 9805e66b14570564a9a3ce65e3c4cdf8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5824727283849570201, guid: 9805e66b14570564a9a3ce65e3c4cdf8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9805e66b14570564a9a3ce65e3c4cdf8, type: 3}
+--- !u!4 &8820901992143910872 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5824727283849570201, guid: 9805e66b14570564a9a3ce65e3c4cdf8, type: 3}
+  m_PrefabInstance: {fileID: 3080379934802497601}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3641850469172267870
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1793532906716098139, guid: b89b50ae506927942a699991de5d823c, type: 3}
+      propertyPath: m_Name
+      value: Palm Tree.Bent.Flower Pot B
+      objectReference: {fileID: 0}
+    - target: {fileID: 7087418990430930018, guid: b89b50ae506927942a699991de5d823c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7087418990430930018, guid: b89b50ae506927942a699991de5d823c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7087418990430930018, guid: b89b50ae506927942a699991de5d823c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7087418990430930018, guid: b89b50ae506927942a699991de5d823c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7087418990430930018, guid: b89b50ae506927942a699991de5d823c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7087418990430930018, guid: b89b50ae506927942a699991de5d823c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7087418990430930018, guid: b89b50ae506927942a699991de5d823c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8820901992143910872}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b89b50ae506927942a699991de5d823c, type: 3}
+--- !u!4 &5823683946560622396 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7087418990430930018, guid: b89b50ae506927942a699991de5d823c, type: 3}
+  m_PrefabInstance: {fileID: 3641850469172267870}
+  m_PrefabAsset: {fileID: 0}

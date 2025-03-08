@@ -655,7 +655,7 @@
     "m_ObjectId": "0694bff9583245c597708d861878186f",
     "m_Title": "Normal Map",
     "m_Position": {
-        "x": -619.2000732421875,
+        "x": -619.2001953125,
         "y": 371.20001220703127
     }
 }
@@ -909,8 +909,8 @@
     "m_ObjectId": "160a46122de442e89827c70d31b75da3",
     "m_Title": "Metallic Map",
     "m_Position": {
-        "x": -660.0,
-        "y": 748.7998657226563
+        "x": -659.999755859375,
+        "y": 748.7999877929688
     }
 }
 
@@ -1262,8 +1262,8 @@
     "m_ObjectId": "432266300cfd41b7a921fda3d94640eb",
     "m_Title": "Smoothness Map",
     "m_Position": {
-        "x": -660.0,
-        "y": 1136.799560546875
+        "x": -659.999755859375,
+        "y": 1136.7998046875
     }
 }
 
@@ -2240,8 +2240,8 @@
     "m_ObjectId": "833eaef4294441c3a1b656645873a7c9",
     "m_Title": "Emission Map",
     "m_Position": {
-        "x": -664.7999877929688,
-        "y": 1519.1998291015625
+        "x": -664.800048828125,
+        "y": 1519.199951171875
     }
 }
 
@@ -2346,7 +2346,7 @@
     "m_Title": "Offset",
     "m_Position": {
         "x": -1085.5999755859375,
-        "y": 162.4000244140625
+        "y": 162.40000915527345
     }
 }
 
@@ -3269,7 +3269,7 @@
     "m_ObjectId": "cbe235050d3b4a94abebabbd12e0a7f8",
     "m_Title": "Trim Sheet",
     "m_Position": {
-        "x": -623.2000122070313,
+        "x": -623.2001953125,
         "y": -188.0
     }
 }
@@ -3715,7 +3715,7 @@
     "m_AllowMaterialOverride": false,
     "m_SurfaceType": 1,
     "m_ZTestMode": 4,
-    "m_ZWriteControl": 0,
+    "m_ZWriteControl": 1,
     "m_AlphaMode": 0,
     "m_RenderFace": 2,
     "m_AlphaClip": true,
