@@ -212,7 +212,7 @@ ReflectionProbe:
   m_Resolution: 512
   m_UpdateFrequency: 0
   m_BoxSize: {x: 3, y: 1.6, z: 3}
-  m_BoxOffset: {x: -1.5, y: 0.75, z: 1.5}
+  m_BoxOffset: {x: 0, y: 0.75, z: -1.5}
   m_NearClip: 0.3
   m_FarClip: 50
   m_ShadowDistance: 100
@@ -220,7 +220,7 @@ ReflectionProbe:
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 133431295
   m_IntensityMultiplier: 1
   m_BlendDistance: 0
   m_HDR: 1

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7249579203347085569}
   - component: {fileID: 6933683093342859838}
   - component: {fileID: 1454298121494370290}
-  m_Layer: 0
+  m_Layer: 31
   m_Name: I-Beam.Solid.Small
   m_TagString: Untagged
   m_Icon: {fileID: 0}

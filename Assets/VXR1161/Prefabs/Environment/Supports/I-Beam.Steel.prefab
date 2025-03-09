@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5770254563636650537}
   - component: {fileID: 4952230761584268169}
   - component: {fileID: 5613104088357208338}
-  m_Layer: 0
+  m_Layer: 31
   m_Name: I-Beam.Steel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
