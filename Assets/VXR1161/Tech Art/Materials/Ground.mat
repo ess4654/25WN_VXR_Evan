@@ -108,7 +108,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Lava_Strength: 0.03
+    - _Lava_Strength: 0.035
     - _Metallic: 0
     - _Movement_Threshold: 0.895
     - _OcclusionStrength: 1
